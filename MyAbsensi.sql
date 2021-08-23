@@ -72,9 +72,6 @@ CREATE TABLE `catatan` (
 --
 
 INSERT INTO `catatan` (`id_cat`, `id_user`, `id_bln`, `id_hri`, `id_tgl`, `isi_cat`, `status_cat`) VALUES
-(54, 11, 10, 5, 2, 'Membaca materi', ''),
-(55, 15, 3, 1, 1, '1. Jam 1-2 Bahasa Indonesia', 'Dikonfirmasi'),
-(56, 15, 3, 1, 1, '2. Membuat Tugas Matematika', 'Dikonfirmasi');
 
 -- --------------------------------------------------------
 
@@ -99,9 +96,6 @@ CREATE TABLE `data_absen` (
 --
 
 INSERT INTO `data_absen` (`id_absen`, `id_user`, `id_bln`, `id_hri`, `id_tgl`, `jam_msk`, `st_jam_msk`, `jam_klr`, `st_jam_klr`) VALUES
-(71, '9', 10, 1, 5, '07.42 WIB', 'Ditolak', '', 'Belum Absen'),
-(70, '11', 10, 5, 2, '13.25 WIB', 'Ditolak', '13.27 WIB', 'Ditolak'),
-(72, '15', 3, 1, 1, '22.52 WIB', 'Dikonfirmasi', '22.55 WIB', 'Dikonfirmasi');
 
 -- --------------------------------------------------------
 
@@ -140,7 +134,6 @@ CREATE TABLE `detail_user` (
 --
 
 INSERT INTO `detail_user` (`id_user`, `nis_user`, `name_user`, `sklh_user`, `jk_user`) VALUES
-(15, 123, 'Andy L.', 'VIII', 'L');
 
 -- --------------------------------------------------------
 
@@ -233,7 +226,6 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id_user`, `email_user`, `pwd_user`, `level_user`) VALUES
 (1, 'laumait@gmail.com', 'b75a8a86cf4acb8a69d4fe752e8b8c6d92bbe7e3', 'pb'),
-(15, 'andy@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964', 'sw');
 
 --
 -- Indexes for dumped tables
